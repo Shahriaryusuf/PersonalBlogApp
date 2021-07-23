@@ -1,8 +1,14 @@
 <%- include("partials/header") -%>
 
 <h1>Home</h1>
-<div>
-    <p><%= info1 %> </p>
-</div>
+
+   <p> <%= info1 %> </p>
+
+
+
+
+<% newposts.forEach(function(post){ %>
+    <% console.log(post.newTitle) %>
+<%  }); %>
 
 <%- include("partials/footer") -%>
